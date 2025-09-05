@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy SMP - Server Minecraft Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="particles-container" id="particles"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-text">Legacy</span>
+                    <span class="logo-accent">SMP</span>
+                </div>
+                <div class="logo-subtitle">Server Minecraft Indonesia</div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#features" class="nav-link">Fitur</a></li>
+                    <li><a href="#gallery" class="nav-link">Galeri</a></li>
+                    <li><a href="#rules" class="nav-link">Peraturan</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="home" class="hero active">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-line">Selamat Datang di</span>
+                        <span class="title-line title-accent">Legacy SMP</span>
+                    </h1>
+                    <p class="hero-description">Server Minecraft Survival Indonesia dengan komunitas yang ramah dan fitur menarik</p>
+                    
+                    <div class="server-info-card">
+                        <div class="server-status">
+                            <div class="status-indicator">
+                                <span class="status-dot"></span>
+                                <span class="status-text">Server Online</span>
+                            </div>
+                            <div class="player-count">
+                                <i class="fas fa-users"></i>
+                                <span>42/100 Pemain</span>
+                            </div>
+                        </div>
+                        
+                        <div class="ip-container">
+                            <div class="ip-label">Server IP:</div>
+                            <div class="ip-address">legacysmp.my.id</div>
+                            <button class="copy-btn" id="copyIP">
+                                <i class="fas fa-copy"></i>
+                                <span>Salin IP</span>
+                            </button>
+                        </div>
+                        
+                        <div class="action-buttons">
+                            <a href="https://chat.whatsapp.com/GKD6HcYUljpKwN6dvB1Vza?mode=ac_t" target="_blank" class="action-btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>Grup WhatsApp</span>
+                            </a>
+                            <a href="https://sociabuzz.com/kunzzdev" target="_blank" class="action-btn donate-btn">
+                                <i class="fas fa-donate"></i>
+                                <span>Donasi Streamer</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="minecraft-blocks">
+                        <div class="block grass"></div>
+                        <div class="block dirt"></div>
+                        <div class="block stone"></div>
+                        <div class="block wood"></div>
+                        <div class="block leaves"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="features" class="features">
+                <h2 class="section-title">Fitur Server</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Bebas Grief</h3>
+                        <p>Build dengan bebas tanpa batasan, ekspresikan kreativitas Anda</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Ekonomi Server</h3>
+                        <p>Sistem ekonomi yang seimbang dengan shop dan trading</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Komunitas Ramah</h3>
+                        <p>Bergabung dengan komunitas Minecraft yang aktif dan ramah</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>Event Rutin</h3>
+                        <p>Ikuti event menarik setiap minggu dengan hadiah fantastis</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <h3>World Border</h3>
+                        <p>Dunia terbatas untuk menjaga performa server tetap optimal</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3>Ranks & Kits</h3>
+                        <p>Banyak pilihan rank dan kits yang bisa Anda dapatkan</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="gallery" class="gallery">
+                <h2 class="section-title">Galeri Server</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606347513866-f1318f5df5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Spawn Area">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Spawn Area</h3>
+                                <p>Area spawn yang megah dan nyaman</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606347513866-f1318f5df5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Community Build">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Community Build</h3>
+                                <p>Hasil build bersama komunitas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606347513866-f1318f5df5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Player Housing">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Player Housing</h3>
+                                <p>Perumahan pemain yang teratur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606347513866-f1318f5df5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Farm Area">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Farm Area</h3>
+                                <p>Area khusus untuk farming</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606347513866-f1318f5df5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Shop Area">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Shop Area</h3>
+                                <p>Pusat perbelanjaan server</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606347513866-f1318f5df5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Event Area">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3>Event Area</h3>
+                                <p>Area khusus untuk event server</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="rules" class="rules">
+                <h2 class="section-title">Peraturan Server</h2>
+                <div class="rules-container">
+                    <div class="rules-column">
+                        <div class="rule-item">
+                            <div class="rule-number">1</div>
+                            <div class="rule-content">
+                                <h3>Bebas Grief</h3>
+                                <p>Server mengizinkan griefing sebagai bagian dari gameplay survival yang menantang</p>
+                            </div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-number">2</div>
+                            <div class="rule-content">
+                                <h3>Tidak Ada Cheating</h3>
+                                <p>Penggunaan client mods, hacked clients, atau eksploitasi bug tidak diperbolehkan</p>
+                            </div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-number">3</div>
+                            <div class="rule-content">
+                                <h3>Respect Sesama Pemain</h3>
+                                <p>Saling menghormati dan tidak melakukan toxic behavior atau bullying</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rules-column">
+                        <div class="rule-item">
+                            <div class="rule-number">4</div>
+                            <div class="rule-content">
+                                <h3>Tidak Ada Spam</h3>
+                                <p>Dilarang melakukan spam di chat atau menggunakan karakter berulang</p>
+                            </div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-number">5</div>
+                            <div class="rule-content">
+                                <h3>Tidak Ada Iklan</h3>
+                                <p>Dilarang mempromosikan server lain atau produk tanpa izin admin</p>
+                            </div>
+                        </div>
+                        <div class="rule-item">
+                            <div class="rule-number">6</div>
+                            <div class="rule-content">
+                                <h3>Patuhi Perintah Staff</h3>
+                                <p>Ikuti instruksi dari staff server dan tidak berdebat dengan keputusan mereka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact" class="contact">
+                <h2 class="section-title">Hubungi Kami</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-discord"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Discord</h3>
+                                <p>discord.gg/legacysmp</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>WhatsApp</h3>
+                                <p>chat.whatsapp.com/legacysmp</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>admin@legacysmp.my.id</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Kirim Pesan</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <span class="logo-text">Legacy</span>
+                        <span class="logo-accent">SMP</span>
+                    </div>
+                    <p>Server Minecraft Indonesia Terbaik</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Beranda</a></li>
+                            <li><a href="#features">Fitur</a></li>
+                            <li><a href="#gallery">Galeri</a></li>
+                            <li><a href="#rules">Peraturan</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Community</h3>
+                        <ul>
+                            <li><a href="https://chat.whatsapp.com/GKD6HcYUljpKwN6dvB1Vza?mode=ac_t" target="_blank">Grup WhatsApp</a></li>
+                            <li><a href="https://discord.gg/vuaFWPu5" target="_blank">Discord Server</a></li>
+                            <li><a href="https://sociabuzz.com/kunzzdev" target="_blank">Donasi</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2053 Legacy SMP. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast-message">
+            <span id="toast-text">IP Server berhasil disalin!</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
